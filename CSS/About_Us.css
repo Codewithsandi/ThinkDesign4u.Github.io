@@ -1,0 +1,84 @@
+.left {
+    /* border: 2px solid red; */
+    display: block;
+    position: absolute;
+    margin: 20px 20px;
+    left: 30px;
+    top: 0px;
+}
+
+.left img {
+    height: 60px;
+    width: 105px;
+    filter: invert(100%);
+}
+
+.right {
+    /* border: 2px solid cyan; */
+    width: 35%;
+    display: block;
+    position: absolute;
+    margin: 20px 20px;
+    right: 0px;
+    top: 0px;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 22px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    margin: 14px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    color: blue;
+    text-decoration: underline;
+}
+
+.container {
+    top: 0px;
+    height: 65%;
+    width: 85%;
+    margin: 125px 75px;
+    /* border: 2px solid red; */
+    display: flex;
+    color: white;
+}
+
+.container img {
+    height: 290px;
+    width: 264px;
+    margin: 7px 43px;
+}
+
+.container button {
+    background: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 15%;
+    height: 11%;
+}
+
+.container button a {
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.container button:hover {
+    background: rgb(185, 185, 185);
+}
+
+.container button a:hover {
+    color: black;
+}

@@ -1,0 +1,108 @@
+.left {
+    /* border: 2px solid red; */
+    display: block;
+    position: absolute;
+    margin: 20px 20px;
+    left: 30px;
+    top: 0px;
+}
+
+.left img {
+    height: 60px;
+    width: 105px;
+    filter: invert(100%);
+}
+
+.right {
+    /* border: 2px solid cyan; */
+    width: 35%;
+    display: block;
+    position: absolute;
+    margin: 20px 20px;
+    right: 0px;
+    top: 0px;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 22px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    margin: 14px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    color: blue;
+    text-decoration: underline;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    height: 522px;
+    background: url('/IMG/unnamed.png') no-repeat;
+    background-size: 100% 100%;
+}
+
+.title {
+    margin-top: 145px;
+    color: white;
+}
+
+.title h1 {
+    font-size: 45px;
+    line-height: 10px;
+}
+
+.title h2 {
+    font-size: 18px;
+}
+
+.form-group {
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+input {
+    height: 35px;
+    color: white;
+}
+
+form .submit {
+    background-color: tomato;
+    border-color: transparent;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 10px;
+    transition: 0.4s ease;
+}
+
+form .submit:hover {
+    background-color: salmon;
+    cursor: pointer;
+}
+
+.p {
+    color: white;
+}
+
+.p a {
+    color: rgb(109, 93, 255);
+}
