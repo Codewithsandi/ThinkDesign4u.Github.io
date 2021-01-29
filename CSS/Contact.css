@@ -49,7 +49,7 @@ body {
     padding: 0;
     text-align: center;
     height: 522px;
-    background: url('IMG/unnamed.png') no-repeat;
+    background: url('../IMG/unnamed.png') no-repeat;
     background-size: 100% 100%;
 }
 
